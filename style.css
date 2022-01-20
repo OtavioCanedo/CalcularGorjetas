@@ -1,0 +1,73 @@
+:root {
+  --primary-collor: rgb(153, 253, 186);
+  --secondary-collor: rgb(17, 0, 255);
+  --tertiary-collor: rgb(147, 221, 255);
+}
+
+body {
+  background-color: var(--primary-collor);
+  font-size: 17px;
+}
+
+.container {
+  height: 525px;
+  width: 360px;
+  margin: 140px auto;
+  background-color: #f7f7f7;
+  box-shadow: 5px 5px 5px var(--tertiary-collor);
+  border-radius: 20px;
+}
+
+.title {
+  background-color: var(--secondary-collor);
+  color: white;
+  padding: 20px;
+  font-weight: normal;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  text-align: center;
+}
+
+.tipForm {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.formInput,
+.formSelect {
+  background-color: white;
+  padding: 5px 5px 8px 8px;
+}
+
+.formInput {
+  width: 50px;
+  text-align: center;
+}
+
+.formSelect {
+  width: 167px;
+}
+
+.formInput:focus,
+.formSelect:focus {
+  border: 3px solid var(--primary-collor);
+  outline: none;
+}
+
+.formButton {
+  font-weight: bold;
+  display: block;
+  margin: 30px auto;
+  background-color: var(--primary-collor);
+  border-radius: 5px;
+  width: 150px;
+  height: 45px;
+  font-size: 19px;
+  cursor: pointer;
+}
+
+#totalTip {
+  font-size: 19px;
+  margin-top: 5px;
+  text-align: center;
+}
